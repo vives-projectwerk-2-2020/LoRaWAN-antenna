@@ -30,3 +30,6 @@ http://www.ti.com/lit/an/swra228c/swra228c.pdf
 https://www.cypress.com/file/136236/download
 
 https://eth0maz.wordpress.com/2016/12/05/lorawan-node-with-onboard-antenna/
+
+Het grootte nadeel aan een PCB antenne is dat het bereik ervan beperkt is. Als er een node wordt opgesteld in zeebrugge moet er zeker 5km overbrugt worden met de antenne. Met een PCB-antenne is dit bijna onmoggelijk.
+![](./img/map.png)
