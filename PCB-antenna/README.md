@@ -22,3 +22,7 @@ gevonden ontwerpen:
 ![](./img/MMonopole.png)
 ![](./img/RSMA_u-slot.png)
 ![](./img/900MHz.png)
+
+https://www.ti.com/lit/an/swra227e/swra227e.pdf 
+
+https://www.cypress.com/file/136236/download
