@@ -33,3 +33,39 @@ https://eth0maz.wordpress.com/2016/12/05/lorawan-node-with-onboard-antenna/
 
 Het grootte nadeel aan een PCB antenne is dat het bereik ervan beperkt is. Als er een node wordt opgesteld in zeebrugge moet er zeker 5km overbrugt worden met de antenne. Met een PCB-antenne is dit bijna onmoggelijk.
 ![](./img/map.png)
+
+
+verschillende soorten PCB antennes:
+LOOP
+* hoe groter de loop, hoe beter het werkt
+* alle omtrekken kleiner dan 0.1 golflengte zijn nutteloos. Voor 868MHz is de golflente 0.35m = 35cm (redelijk groot)
+* zeer onefficiënt
+
+
+PATCH
+* breedte van een het vierkant is dicht bij ((golflengte/2)/vierkantswortel van dielectric constant). de breedte zal dus rond de 9cm liggen.
+* bandbreedte is zeer smal
+
+INVERTED-F
+* groot ground plane nodig
+
+
+MEANDER LINE
+* kleiner bereik
+
+file:///C:/Users/laura/Downloads/Antenna_Reference_Design_Guide_ISM.pdf
+
+Het probleem bij PCB antennes is dat je een richtingseffect krijgt, dat de antenne niet in alle richtingen even goed zal kunnen ontvangen.
+
+PCB antenne: (straalt niet in alle richtingen even veel uit, heeft een richtingseffect)
+
+![](./img/patch.png)
+
+
+dipool: (straalt mooi in alle richtingen evenveel uit)
+
+![](./img/dipole.png)
+
+
+
+
