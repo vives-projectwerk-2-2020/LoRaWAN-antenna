@@ -73,6 +73,8 @@ stralingspatroon is beter dan van de eerste pcb antenne, dit is niet echt een pc
 
 ![](./img/biquad.png)
 
+op thingiverse staat er een ontwerp dat je kan printen, en dan zelf er een draad in de gleuven legt, maar de afmetingen zijn ook te groot.(https://www.thingiverse.com/thing:2221922 )
+
 
 # gasket antenne
 
@@ -92,5 +94,23 @@ nadeel:de afmetingen van de antenne zijn te groot, om in de behuizing te plaatse
 ![](./img/koch.png)
 
 
+# inverted F
+* terug te groot voor onze opstelling (20cm breedte, volgens mathlab)
 
 
+# commercieel
+https://www.amazon.co.uk/Lillyelectronics-Q-BAIHE-865-868MHz-Antenna-Connector/dp/B017N761JQ 
+
+# met mahtlab
+https://nl.mathworks.com/products/antenna.html
+
+
+# vereisten
+* De radiaton van de antenne moet Omnidirectional zijn, dit wil zeggen dat de antenne in alle richtingen even veel uitzendt/ontvangt. Dit is nodig in ons geval, omdat de gateway overal kan staan.
+* De polarizatie van de antenne van de node wordt best verticaal genomen. Dit omdat de meeste gateways ook verticaal werken.
+* De bandbreedte, Als de bandbreedte zeer smal is dan is deze zeer moeilijk te maken, maar heb je wel een optimaal ontvangst.
+* hoge efficienty, bij een hoge efficienty zijn er niet veel verliezen in de antenne.
+
+file:///C:/Users/laura/Downloads/HF-Praxis7-2015%20V.pdf
+
+http://www.ti.com/lit/an/swra227e/swra227e.pdf
