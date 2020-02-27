@@ -10,7 +10,7 @@ De antenne van de node moet dus 5 km kunnen overbruggen.
 
 
 
-gevonden ontwerpen:
+# gevonden ontwerpen:
 
 ![](./img/PIFA_Antennna_860MHz.png)
 ![](./img/MIFA_900MHz.png)
@@ -36,6 +36,7 @@ Het grootte nadeel aan een PCB antenne is dat het bereik ervan beperkt is. Als e
 
 
 verschillende soorten PCB antennes:
+
 LOOP
 * hoe groter de loop, hoe beter het werkt
 * alle omtrekken kleiner dan 0.1 golflengte zijn nutteloos. Voor 868MHz is de golflente 0.35m = 35cm (redelijk groot)
@@ -62,9 +63,33 @@ PCB antenne: (straalt niet in alle richtingen even veel uit, heeft een richtings
 ![](./img/patch.png)
 
 
-dipool: (straalt mooi in alle richtingen evenveel uit)
+# dipool: (straalt mooi in alle richtingen evenveel uit)
 
 ![](./img/dipole.png)
+
+
+# biquad antenne: 
+stralingspatroon is beter dan van de eerste pcb antenne, dit is niet echt een pcb antenne
+
+![](./img/biquad.png)
+
+
+# gasket antenne
+
+![](./img/driehoekig.png)
+![](./img/gasket_size.png)
+
+voordeel: heeft de beste stralingspatroon, van alle plate antennen.
+
+nadeel: moeilijker te tekenen
+
+nadeel:de afmetingen van de antenne zijn te groot, om in de behuizing te plaatsen
+
+-> niet bruikbaar voor onze opstelling.
+
+
+# koch antenna
+![](./img/koch.png)
 
 
 
