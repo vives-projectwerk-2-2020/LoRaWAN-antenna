@@ -81,7 +81,7 @@ op thingiverse staat er een ontwerp dat je kan printen, en dan zelf er een draad
 ![](./img/driehoekig.png)
 ![](./img/gasket_size.png)
 
-voordeel: heeft de beste stralingspatroon, van alle plate antennen.
+voordeel: heeft de beste stralingspatroon, van alle platte antennen.
 
 nadeel: moeilijker te tekenen
 
@@ -114,3 +114,15 @@ https://nl.mathworks.com/products/antenna.html
 file:///C:/Users/laura/Downloads/HF-Praxis7-2015%20V.pdf
 
 http://www.ti.com/lit/an/swra227e/swra227e.pdf
+
+
+# antenne die zal worden gemaakt worden
+
+http://www.ti.com/lit/an/swra228c/swra228c.pdf
+https://github.com/cernohorsky/LoRa-Node
+
+Op deze ontwerpen zal ik mij baseren bij het tekenen en onwerpen van de PCB antenne.
+
+Deze antenne is niet omnidirectioneel, waardoor je een richtingsantenne krijgt. Het is namelijk bijna onmogelijk om een pcb antenne te vinden/ontwikkelen die omnidirectioneel is en nog in de doos zou kunnen.
+De afmetingen van deze antenne zijn wel klein genoeg om in de doos te kunnen plaatsen, vandaar de keuze.
+
