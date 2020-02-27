@@ -126,3 +126,7 @@ Op deze ontwerpen zal ik mij baseren bij het tekenen en onwerpen van de PCB ante
 Deze antenne is niet omnidirectioneel, waardoor je een richtingsantenne krijgt. Het is namelijk bijna onmogelijk om een pcb antenne te vinden/ontwikkelen die omnidirectioneel is en nog in de doos zou kunnen.
 De afmetingen van deze antenne zijn wel klein genoeg om in de doos te kunnen plaatsen, vandaar de keuze.
 
+## verdere stappen
+
+doorzichtige mika en fotogevoelige printplaat gaan kopen, zodat er kan getest worden als dit ontwerp effectief goed zal werken.
+ook de smd condensators aankopen.
