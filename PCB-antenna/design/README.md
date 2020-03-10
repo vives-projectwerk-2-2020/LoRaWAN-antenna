@@ -5,3 +5,15 @@ Pi-network bestaat uit C3, C4 en L1. (footprint 0805), waarden zullen moeten gem
 
 
 ![](./img/inckspace.png)
+
+
+## antenna in eagle
+Het onderste gedeelte van het bordje (45*31mm):
+
+![](./img/groundplane.png)
+
+
+
+
+
+
