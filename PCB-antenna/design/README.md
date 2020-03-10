@@ -7,22 +7,25 @@ Pi-network bestaat uit C3, C4 en L1. (footprint 0805), waarden zullen moeten gem
 ![](./img/inckspace.png)
 
 
-## antenna in eagle
-Het onderste gedeelte van het bordje (45*31mm):
+## Eagle schema
 
-![](./img/groundplane.png)
+![](./img/schema.png)
 
+## Eagle print
 
-gedeelte van de antenne:
-![](./img/antenna_polygon.png)
-
-
-de 2 gedeelten samen:
 
 ![](./img/print.png)
 
 
 
+## printen op mika
+De transparant maken in mislukt. Er werden verschillende instellingen bij de printer geprobeerd.
 
+![](./img/1.jpg)
+![](./img/2.jpg)
+![](./img/3.jpg)
+
+
+Er zal dus een print besteld worden, in plaats van zelf te etsen.
 
 
