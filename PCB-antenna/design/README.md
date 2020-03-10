@@ -12,8 +12,14 @@ Het onderste gedeelte van het bordje (45*31mm):
 
 ![](./img/groundplane.png)
 
+
 gedeelte van de antenne:
 ![](./img/antenna_polygon.png)
+
+
+de 2 gedeelten samen:
+
+![](./img/print.png)
 
 
 
