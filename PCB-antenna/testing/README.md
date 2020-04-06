@@ -34,3 +34,15 @@ De totale lengte van het laatste stukje van de antenne bedraagd 1,25cm. (gemeten
 Hieronder kan je het resultaat zien.
 
 ![](./img/board_result.jpeg)
+
+# making board with lora module
+
+the antenna scratched to the correct length and soldered the components on it.
+the pins are properly soldered so that they can be connected to Niels' board.
+this is the frond:
+
+![](./img/board_with_lora-module.jpeg)
+
+and this is the back:
+
+![](./img/board_with_lora-module_back.jpeg)
