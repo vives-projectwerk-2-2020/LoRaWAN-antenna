@@ -46,3 +46,11 @@ this is the frond:
 and this is the back:
 
 ![](./img/board_with_lora-module_back.jpeg)
+
+## testing the board with an arduino
+
+Found this on the internet: https://www.mobilefish.com/developer/lorawan/lorawan_quickguide_build_lora_node_rfm95_arduino_uno.html
+
+the connection between the arduino and the RF95 module:
+
+![](./img/arduino.jpeg)
