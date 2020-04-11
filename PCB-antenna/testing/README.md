@@ -54,3 +54,5 @@ Found this on the internet: https://www.mobilefish.com/developer/lorawan/lorawan
 the connection between the arduino and the RF95 module:
 
 ![](./img/arduino.jpeg)
+
+Between the arduino en de RF95 module, are there level converters. This is to convert de voltage from 5V to 3,3V.
