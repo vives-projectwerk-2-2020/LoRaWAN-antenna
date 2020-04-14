@@ -56,3 +56,11 @@ the connection between the arduino and the RF95 module:
 ![](./img/arduino.jpeg)
 
 Between the arduino en de RF95 module, are there level converters. This is to convert de voltage from 5V to 3,3V.
+
+The program loaded into the arduino. But there were a lot of errors. Unfortunately, the errors cannot be resolved.
+
+Searched another example on the internet:
+
+https://www.disk91.com/2019/technology/lora/hoperf-rfm95-and-arduino-a-low-cost-lorawan-solution/
+
+Here I got no more errors. But on the console of the TTN I saw no connectivity.
