@@ -64,3 +64,29 @@ Searched another example on the internet:
 https://www.disk91.com/2019/technology/lora/hoperf-rfm95-and-arduino-a-low-cost-lorawan-solution/
 
 Here I got no more errors. But on the console of the TTN I saw no connectivity.
+
+there is no further testing on this because I now got a board from Niels.
+
+## testing the board with the board of Niels
+
+the PCB board connected to the board of niels. Then loaded the software into the nucleo. The software comes from here:
+https://github.com/vives-projectwerk-2-2020/LoRaWAN-example
+
+In the setting.h something has to be changed about the pins. This is how it should look for the little nucleo:
+
+![pins_settings.h](./img/pins.png)
+
+Added a device on TTN and put the keys in a file settings.h as described in the LoRaWan-example.
+
+Here you can see the communication over the port with Putty:
+
+![putty](./img/putty.png)
+
+below you can see that there is a connection with TTN:
+
+![status_connection](./img/connection.png)
+
+below the 2 connected to each other:
+
+![result](./img/board_result2.jpeg)
+
