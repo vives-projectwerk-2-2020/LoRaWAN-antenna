@@ -90,3 +90,14 @@ below the 2 connected to each other:
 
 ![result](./img/board_result2.jpeg)
 
+## test the range
+
+The points below you can see where I managed to connect to my gateway:
+
+punt1: 1,1km, the antennas see each other here
+
+![point1](./img/punt1.png)
+
+punt2: 1,76km, the antennas did not see each other, there was a large concrete storage place in front of it.
+
+![point2](./img/punt2.png)
