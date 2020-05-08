@@ -115,3 +115,14 @@ The range is now much better, it is doubled. distances of 3.20 km are now possib
 the points below are points where connections to TTN could be made. At the points you can always see the distance in bird's eye view.
 
 ![rangeTest2Map](./img/rangeTest2.png)
+
+## test the different between the PCB antenna and the previous antenna
+
+Below you see the circuit:
+
+![circuit](./img/circuit.jpeg)
+
+Here you can see where there was signal with TTN. You can see that the range with that previous antenna is much smaller.
+This means that the PCB antenna is an improvement on the previous antenna.
+
+![BadAntenna](./img/rangeTestBadAntenna.png)
