@@ -5,7 +5,7 @@ This PCB must be connected to the main PCB, as you can see below.
 
 ![on main board](./img/onMainBoard.png)
 
-based on [desing](http://www.ti.com/lit/an/swra228c/swra228c.pdf)
+based on [this](http://www.ti.com/lit/an/swra228c/swra228c.pdf) design
 
 ## explanation of the Antenna PCB board
 
