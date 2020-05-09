@@ -60,7 +60,7 @@ punt2: 1,76km, the antennas did not see each other, there was a large concrete s
 ## test the range with a better antenna on the gateway
 
 The antenna is now 10m high. The test setup can be found in the following 2 images.
-In the box is the gateway (LG02 from dragino). 1 of the original antennas is disconnected and connected to the large antenna. This is an antenna with 3dB gain.
+In the box is the gateway (LG02 from dragino). 1 of the original antennas is disconnected and connected to the large antenna. This is an omnidirectional antenna with 3dB gain.
 The antenna is mounted via a bracket on the pole. The bracket is self-made.
 
 ![test](./img/test_opstelling.jpg)

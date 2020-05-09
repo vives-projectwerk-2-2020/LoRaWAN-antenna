@@ -75,6 +75,8 @@ You can view the tests that happened in the folder "testing".
 first you need to develop the PCB. You can do this by sending a zip to a manufacturer. Like for example with this manufacturer. [JLCPCB](https://jlcpcb.com/)
 The ZIP file is located here in the root and is called 'LoRaWAN_antenna.zip'. You can download and upload this on the manufacturer's website. If you want to make changes to the PCB you can edit it in the folder 'PCB-antenna-eagle'.
 
+### Order the components
+
 Then you have to order the components. These are the components:
 
 * [coil (12nF)](https://be.farnell.com/te-connectivity/36502a12njtdg/inductor-12n-5-0805-case/dp/1265504?st=)
@@ -84,7 +86,9 @@ Then you have to order the components. These are the components:
 
 for 1 PCB you need 2 capacitors, 1 coil, 1 RF95 module and 15 male pins.
 
-If you then have your PCB, you can start soldering.
+### solder everything together
+
+If you then have your PCB and components, you can start soldering.
 You should not scratch the antenna anymore, I have already adjusted this in the last version.
 For soldering it is best to start with the RF95 module and then the capacitors and the coil.
 Then solder the pins on the last.
