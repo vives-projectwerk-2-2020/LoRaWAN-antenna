@@ -1,6 +1,6 @@
 # TESTING
 
-## testing the right length and values for the matching network
+## Testing the right length and values for the matching network
 
 Soldered on C1 and C2 capacitors of 2.2pF. A value of 12nH was taken for the coil.
 The total length of the last piece of the antenna is 1.25 cm. (measured from the outer corner)
@@ -11,7 +11,7 @@ In the figure below you can see that at 868MHz the VSWR is 1.112. This is 0.28% 
 
 ![test6](./img/test6.png)
 
-## making the board with lora module
+## Making the board with lora module
 
 the antenna scratched to the correct length and soldered the components on it.
 the pins are properly soldered so that they can be connected to the main board.
@@ -23,7 +23,7 @@ and this is the back:
 
 ![back](./img/board_with_lora-module_back.jpeg)
 
-## testing the board with the main board
+## Testing the board with the main board
 
 The PCB board connected to the board of niels. Then loaded the software into the nucleo. The software comes from here:[LoRaWan-example](https://github.com/vives-projectwerk-2-2020/LoRaWAN-example).
 
@@ -45,7 +45,7 @@ And here you see 2 boards connected to each other:
 
 ![result](./img/board_result2.jpeg)
 
-## test the range
+## Test the range with original antennas
 
 On the following images you can see where I was connected to TTN. The gateway I use is a Dragino LG02, at the moment the original antennas are still on it.
 
@@ -57,7 +57,7 @@ punt2: 1,76km, the antennas did not see each other, there was a large concrete s
 
 ![point2](./img/punt2.png)
 
-## test the range with a better antenna on the gateway
+## Test the range with a better antenna on the gateway
 
 The antenna is now 10m high. The test setup can be found in the following 2 images.
 In the box is the gateway (LG02 from dragino). 1 of the original antennas is disconnected and connected to the large antenna. This is an omnidirectional antenna with 3dB gain.
@@ -71,7 +71,7 @@ the points below are points where connections to TTN could be made. At the point
 
 ![rangeTest2Map](./img/rangeTest2.png)
 
-## test the different between the PCB antenna and the previous antenna
+## Test the different between the PCB antenna and the previous antenna
 
 Below you see the circuit:
 

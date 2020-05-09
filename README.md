@@ -86,7 +86,7 @@ Then you have to order the components. These are the components:
 
 for 1 PCB you need 2 capacitors, 1 coil, 1 RF95 module and 15 male pins.
 
-### solder everything together
+### Solder everything together
 
 If you then have your PCB and components, you can start soldering.
 You should not scratch the antenna anymore, I have already adjusted this in the last version.
