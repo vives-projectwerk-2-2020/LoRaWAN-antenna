@@ -13,8 +13,11 @@ You can adjust the length here, by scratching away some copper at the end of the
 
 ![Antenna board](./img/distance.png)
 
+By adjusting the length of the antenna, the antenna is now al more suitable for 868MHz.
+
 ## matching network
 
+By adding a matching network now, we can improve the impedance of the antenna more.
 You can observe the maching network below. This consists of 2 capacitors and 1 coil. The values of the capacitors are 2,2pF. The value of the coil is 12nF.
 
 ![matching network](./img/matching_network.png)
@@ -25,16 +28,10 @@ The network for adjusting the impedance is a PI network. The left side of the ma
 
 The dimensions of the PCB are also very important. If the dimensions are different from here, you must again determine the length and the matching network.
 
-Below you can see that the VSWR at 868MHz is 1.112.
+Below you can see that the VSWR at 868MHz is 1.112. This mean that you're return lose is 25.510dB. This is very good, because now less than 1% of the power goes back to the module. This means that more than 99% of the power is used for the communication.
 
 ![VSWR](./img/VSWR.png)
 
 ## RF95
 
 ![RF95 pinout](./img/RF95-pinout.png)
-
-De antenne die gebruikt moet worden:
-![](./img/antenne_868MHz.jpg)
-
-Als er antennes te kort zijn, dan is dit de 2de beste antenne:
-![](./img/antenne_backup_868MHz.jpg)
