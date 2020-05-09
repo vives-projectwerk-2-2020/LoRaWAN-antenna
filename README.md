@@ -3,7 +3,7 @@
 This is the explanation of how the antenna PCB board came, and how you can make one yourself.
 This PCB must be connected to the main PCB, as you can see below.
 
-![on main board](./img/OnMainBoard.png)
+![on main board](./img/onMainBoard.png)
 
 based on [desing](http://www.ti.com/lit/an/swra228c/swra228c.pdf)
 
