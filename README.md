@@ -50,6 +50,14 @@ This PCB is then clicked on the main PCB.
 
 ![RF95 pinout](./img/RF95-pinout.png)
 
+### schematic
+
+Here you can see the schematic drawn in Eagle. At the top you see the pins, these are then connected to the main PCB. below that you see the RF95 chip.
+In the middle you see the matching network, which ensures a correct impedance.
+The square block on the right is the symbol for your antenna. It is a symbol whose foodprint is the shape of the antenna.
+
+![schematic](./img/schematic.png)
+
 ## Make it yourself
 
 ### Develop the PCB
