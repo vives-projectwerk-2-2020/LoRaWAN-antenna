@@ -45,6 +45,8 @@ Below you can see that the VSWR at 868MHz is 1.112. This mean that you're return
 
 ### RF95
 
+The RF95 module is a module suitable for ultra-long range spread spectrum communications. This module has a 20 dBm power amplifier. This means that you have an output power of 100mW.
+
 Below you see the RF95 module. All pins are brought out through the pins. Except the pin that goes to the antenna.
 This PCB is then clicked on the main PCB.
 
@@ -71,8 +73,8 @@ The ZIP file is located here in the root and is called 'LoRaWAN_antenna.zip'. Yo
 
 Then you have to order the components. These are the components:
 
-* [coil 12nF](https://be.farnell.com/te-connectivity/36502a12njtdg/inductor-12n-5-0805-case/dp/1265504?st=)
-* [capacitors 2.2pF](https://be.farnell.com/vishay/vj0805a2r2bxapw1bc/cap-2-2pf-50v-c0g-np0-0805/dp/2896503?st=)
+* [coil (12nF)](https://be.farnell.com/te-connectivity/36502a12njtdg/inductor-12n-5-0805-case/dp/1265504?st=)
+* [capacitors (2.2pF)](https://be.farnell.com/vishay/vj0805a2r2bxapw1bc/cap-2-2pf-50v-c0g-np0-0805/dp/2896503?st=)
 * [RF95 module](https://www.antratek.be/rfm95-lora-module)
 * [male pins](https://be.farnell.com/harwin/m20-9990846/connector-header-tht-2-54mm-8way/dp/1022257)
 
