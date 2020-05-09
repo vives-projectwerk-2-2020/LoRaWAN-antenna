@@ -45,6 +45,9 @@ This PCB is then clicked on the main PCB.
 
 first you need to develop the PCB. You can do this by sending a zip to a manufacturer. Like for example with this manufacturer. [JLCPCB](https://jlcpcb.com/)
 The ZIP file is located here in the root and is called 'LoRaWAN_antenna.zip'. You can download and upload this on the manufacturer's website. If you want to make changes to the PCB you can edit it in the folder 'eagle'.
+Below you can see what the PCB looks like in eagle.
+
+![PCB](./img/PCB.png)
 
 If you then have your PCB, you can start soldering.
 You should not scratch the antenna anymore, I have already adjusted this in the last version.
