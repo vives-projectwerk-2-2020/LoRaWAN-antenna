@@ -5,29 +5,27 @@
 Soldered on C1 and C2 capacitors of 2.2pF. A value of 12nH was taken for the coil.
 The total length of the last piece of the antenna is 1.25 cm. (measured from the outer corner)
 
+![result](./img/board_result.jpeg)
+
 In the figure below you can see that at 868MHz the VSWR is 1.112. This is 0.28% reflection of your power sent to your antenna.
 
 ![test6](./img/test6.png)
 
-![result](./img/board_result.jpeg)
-
 ## making the board with lora module
 
 the antenna scratched to the correct length and soldered the components on it.
-the pins are properly soldered so that they can be connected to Niels' board.
+the pins are properly soldered so that they can be connected to the main board.
 this is the frond:
 
-![](./img/board_with_lora-module.jpeg)
+![front](./img/board_with_lora-module.jpeg)
 
 and this is the back:
 
-![](./img/board_with_lora-module_back.jpeg)
-
+![back](./img/board_with_lora-module_back.jpeg)
 
 ## testing the board with the main board
 
-the PCB board connected to the board of niels. Then loaded the software into the nucleo. The software comes from here:
-https://github.com/vives-projectwerk-2-2020/LoRaWAN-example
+The PCB board connected to the board of niels. Then loaded the software into the nucleo. The software comes from here:[LoRaWan-example](https://github.com/vives-projectwerk-2-2020/LoRaWAN-example).
 
 In the setting.h something has to be changed about the pins. This is how it should look for the little nucleo:
 
@@ -39,11 +37,11 @@ Here you can see the communication over the port with Putty:
 
 ![putty](./img/putty.png)
 
-below you can see that there is a connection with TTN:
+Below you can see that there is a connection with TTN:
 
 ![status_connection](./img/connection.png)
 
-below the 2 boards connected to each other:
+And here you see 2 boards connected to each other:
 
 ![result](./img/board_result2.jpeg)
 
