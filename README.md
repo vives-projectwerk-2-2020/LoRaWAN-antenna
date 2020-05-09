@@ -64,6 +64,10 @@ Below you can see what the PCB looks like in eagle.
 
 ![PCB](./img/PCB.png)
 
+### tests that happened
+
+You can view the tests that happened in the folder "testing".
+
 ## Make it yourself
 
 ### Develop the PCB
