@@ -50,7 +50,7 @@ This PCB is then clicked on the main PCB.
 
 ![RF95 pinout](./img/RF95-pinout.png)
 
-### schematic
+### schematic and print in Eagle
 
 Here you can see the schematic drawn in Eagle. At the top you see the pins, these are then connected to the main PCB. below that you see the RF95 chip.
 In the middle you see the matching network, which ensures a correct impedance.
@@ -58,15 +58,17 @@ The square block on the right is the symbol for your antenna. It is a symbol who
 
 ![schematic](./img/schematic.png)
 
+Below you can see what the PCB looks like in eagle.
+
+![PCB](./img/PCB.png)
+
 ## Make it yourself
 
 ### Develop the PCB
 
 first you need to develop the PCB. You can do this by sending a zip to a manufacturer. Like for example with this manufacturer. [JLCPCB](https://jlcpcb.com/)
 The ZIP file is located here in the root and is called 'LoRaWAN_antenna.zip'. You can download and upload this on the manufacturer's website. If you want to make changes to the PCB you can edit it in the folder 'eagle'.
-Below you can see what the PCB looks like in eagle.
 
-![PCB](./img/PCB.png)
 
 If you then have your PCB, you can start soldering.
 You should not scratch the antenna anymore, I have already adjusted this in the last version.
