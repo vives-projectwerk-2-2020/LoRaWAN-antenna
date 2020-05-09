@@ -34,4 +34,9 @@ Below you can see that the VSWR at 868MHz is 1.112. This mean that you're return
 
 ## RF95
 
+Below you see the RF95 module. All pins are brought out through the pins. Except the pin that goes to the antenna.
+This PCB is then clicked on the main PCB.
+
 ![RF95 pinout](./img/RF95-pinout.png)
+
+## Use it
