@@ -17,7 +17,7 @@ You can adjust the length here, by scratching away some copper at the end of the
 
 You can observe the maching network below. This consists of 2 capacitors and 1 coil. The values of the capacitors are 2,2pF. The value of the coil is 12nF.
 
-![Antenna board](./img/distance.png)
+![Antenna board](./img/matching_network.png)
 
 The network for adjusting the impedance is a PI network. The left side of the math unit is connected to the antenna output of the RF95 (pin 9). The right side of the unit is connected to the antenna.
 
