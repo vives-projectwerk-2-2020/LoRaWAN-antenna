@@ -33,10 +33,13 @@ By adjusting the length of the antenna, the antenna is now al more suitable for 
 
 By adding a matching network now, we can improve the impedance of the antenna more.
 
-The network for adjusting the impedance is a PI network. The left side of the math unit is connected to the RF95 (the antenna output = pin 9). The right side of the unit is connected to the antenna.
+The network for adjusting the impedance is a PI network. Below you can see the schematic of the network. The left side of the math unit is connected to the RF95 (the antenna output = pin 9). The right side of the unit is connected to the antenna.
 
 ![PI-network](./img/PI-network.png)
 
+You can observe the matching network below. This consists of 2 capacitors and 1 coil. The values of the capacitors are 2,2pF. The value of the coil is 12nF.
+
+![matching network](./img/matching_network.png)
 
 Due to mismatches in impedance, some of the signal is reflected. The ratio of the input to the reflected signal is called the Voltage Standing Wave Ratio (VSWR). This ratio can also be measured in dB, and expressed as Return Loss.
 
@@ -44,15 +47,12 @@ Below you can see that the VSWR at 868MHz is 1.112. This mean that you're return
 
 ![VSWR](./img/VSWR.png)
 
-You can observe the maching network below. This consists of 2 capacitors and 1 coil. The values of the capacitors are 2,2pF. The value of the coil is 12nF.
-
-![matching network](./img/matching_network.png)
 
 The dimensions of the PCB are also very important. If the dimensions are different from here, you must again determine the length and the matching network.
 
 ### RF95
 
-The RF95 module is a module suitable for ultra-long range spread spectrum communications. This module has a 20 dBm power amplifier. This means that you have an output power of 100mW.
+The RF95 module is a module suitable for ultra-long range spread spectrum communications. This module has a 20 dBm power amplifier. This means that you have an output power of 100mW. Because the impedance is now correct, all power will also be radiated effectively.
 
 Below you see the RF95 module. All pins are brought out through the pins. Except the pin that goes to the antenna.
 This PCB is then clicked on the main PCB.
@@ -79,7 +79,7 @@ You can view the tests that happened in the folder "testing".
 
 ### Develop the PCB
 
-first you need to develop the PCB. You can do this by sending a zip to a manufacturer. Like for example with this manufacturer. [JLCPCB](https://jlcpcb.com/)
+First you need to develop the PCB. You can do this by sending a zip to a manufacturer. Like for example with this manufacturer([JLCPCB](https://jlcpcb.com/)).
 The ZIP file is located here in the root and is called 'LoRaWAN_antenna.zip'. You can download and upload this on the manufacturer's website. If you want to make changes to the PCB you can edit it in the folder 'PCB-antenna-eagle'.
 
 ### Order the components
