@@ -13,19 +13,19 @@ In the figure below you can see that at 868MHz the VSWR is 1.112. This is 0.28% 
 
 ## Making the board with lora module
 
-the antenna scratched to the correct length and soldered the components on it.
-the pins are properly soldered so that they can be connected to the main board.
-this is the frond:
+The antenna scratched to the correct length and soldered the components on it.
+The pins are properly soldered so that they can be connected to the main board.
+This is the frond:
 
 ![front](./img/board_with_lora-module.jpeg)
 
-and this is the back:
+And this is the back:
 
 ![back](./img/board_with_lora-module_back.jpeg)
 
 ## Testing the board with the main board
 
-The PCB board connected to the board of niels. Then loaded the software into the nucleo. The software comes from here:[LoRaWan-example](https://github.com/vives-projectwerk-2-2020/LoRaWAN-example).
+The PCB board connected to the main board. Then loaded the software into the Nucleo. The software comes from here: [LoRaWan-example](https://github.com/vives-projectwerk-2-2020/LoRaWAN-example).
 
 In the setting.h something has to be changed about the pins. This is how it should look for the little nucleo:
 
@@ -47,27 +47,27 @@ And here you see 2 boards connected to each other:
 
 ## Test the range with original antennas
 
-On the following images you can see where I was connected to TTN. The gateway I use is a Dragino LG02, at the moment the original antennas are still on it.
+On the following images you can see where there was connection with TTN. The gateway I use is a Dragino LG02, at the moment the original antennas are still on it.
 
-punt1: 1,1km, the antennas see each other here
+point 1: 1,1km. The antennas see each other here.
 
 ![point1](./img/punt1.png)
 
-punt2: 1,76km, the antennas did not see each other, there was a large concrete storage place in front of it.
+point 2: 1,76km. The antennas did not see each other, there was a large concrete storage place in front of it.
 
 ![point2](./img/punt2.png)
 
 ## Test the range with a better antenna on the gateway
 
 The antenna is now 10m high. The test setup can be found in the following 2 images.
-In the box is the gateway (LG02 from dragino). 1 of the original antennas is disconnected and connected to the large antenna. This is an omnidirectional antenna with 3dB gain.
-The antenna is mounted via a bracket on the pole. The bracket is self-made.
+In the box is the gateway (LG02 from dragino). One of the original antennas is disconnected and connected to a bigger antenna. This is an omnidirectional antenna with 3dB gain.
+The antenna is mounted via a bracket on the pole.
 
 ![test](./img/test_opstelling.jpg)
 ![test](./img/opstelling.jpeg)
 
-The range is now much better, it is doubled. distances of 3.20 km are now possible, you can see this on the map below.
-the points below are points where connections to TTN could be made. At the points you can always see the distance in bird's eye view.
+The range is now much better, it is doubled. Distances of 3.20 km are now possible, you can see this on the map below.
+The points below are points where connections to TTN could be made. At the points you can always see the distance in bird's eye view.
 
 ![rangeTest2Map](./img/rangeTest2.png)
 
