@@ -12,8 +12,10 @@ This Antenna on the board is based on [this](http://www.ti.com/lit/an/swra228c/s
 Below you see the antenna board. The PCB antenna on this board is suitable for a frequency around 868MHz.
 
 ![Antenna board](./img/Antenna_board.png)
+The antenna will work most efficiently if it is resonant. When it is resonant, the maximum power will be radiated by the antenna. If an antenna is not resonant, some of the power will not be transmitted. The power is reflected back to the transmitter (in our case the RF95 module).
 
-Due the mismatches in impedance, some of the signal is reflected. Because of the reflection you have a power loss and you could damage the RF95 module.
+Because of the reflection you have a RF power loss and you could damage the RF95 module and also reduce your transmission range.
+
 You can solve this by doing 2 things:
 
 * Adjust the length of the antenna and,
@@ -99,3 +101,20 @@ If you then have your PCB and components, you can start soldering.
 You should not scratch the antenna anymore, I have already adjusted this in the last version.
 For soldering it is best to start with the RF95 module and then the capacitors and the coil.
 Then solder the pins on the last.
+
+## Placing the installation
+
+If you have connected all the boards(main + solar + antenna), you can place this where you want.
+There are some things to keep in mind:
+
+* Place the installation in a place where connections can be made to a gateway. On [this](https://www.thethingsnetwork.org/map) map you can see where there is a gateway. If you want a map where you can see the range, it is best to use [this map](https://ttnmapper.org/).
+
+* Place the installation as high as possible. The higher, the fewer obstacles in the way and the greater the chance of connecting to a gateway.
+
+* Do not place the antenna under the solar panels or next to the solar panels. Because this will ensure that a lot of your range is gone.
+
+* The box you use should not be made of metal or a substance containing metal. [This](http://www.farnell.com/datasheets/2360495.pdf?_ga=2.70667346.396449874.1589637555-1552518953.1588835899&_gac=1.258009592.1589039175.CjwKCAjwqdn1BRBREiwAEbZcR9CB4ETaMQ7lKFncoM-7RMHN5OMiYtTP339AnwNVqZjWkSkDVfl0shoCSGMQAvD_BwE) box is ideal. The material from which the box is made is Polycarbonate. This does not contain metal.
+
+* The box with should be placed freely, not against a wall. Also make sure you are at a certain height.
+
+* Make sure the box is not completely closed. It is best to make 1 or 2 small holes at the bottom so that moisture can escape if condensation forms.
