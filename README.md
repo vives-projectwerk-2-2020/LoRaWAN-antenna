@@ -12,9 +12,10 @@ This Antenna on the board is based on [this](http://www.ti.com/lit/an/swra228c/s
 Below you see the antenna board. The PCB antenna on this board is suitable for a frequency around 868MHz.
 
 ![Antenna board](./img/Antenna_board.png)
-The antenna will work most efficiently if it is resonant. When it is resonant, the maximum power will be radiated by the antenna. If an antenna is not resonant, some of the power will not be transmitted. The power is reflected back to the transmitter (in our case the RF95 module).
 
-Because of the reflection you have a RF power loss and you could damage the RF95 module and also reduce your transmission range.
+The antenna will work most efficiently if it is resonant. When it is resonant, the maximum power will be radiated by the antenna. If an antenna is not resonant, some of the power will not be transmitted. The power is reflected back to the transmitter (in our case the RF96 module).
+
+Because of the reflection you have a RF power loss and you could damage the RF96 module and also reduce your transmission range.
 
 You can solve this by doing 2 things:
 
@@ -35,7 +36,7 @@ By adjusting the length of the antenna, the antenna is now al more suitable for 
 
 By adding a matching network now, we can improve the impedance of the antenna more.
 
-The network for adjusting the impedance is a PI network. Below you can see the schematic of the network. The left side of the math unit is connected to the RF95 (the antenna output = pin 9). The right side of the unit is connected to the antenna.
+The network for adjusting the impedance is a PI network. Below you can see the schematic of the network. The left side of the math unit is connected to the RF96 (the antenna output = pin 9). The right side of the unit is connected to the antenna.
 
 ![PI-network](./img/PI-network.png)
 
@@ -49,12 +50,11 @@ Below you can see that the VSWR at 868MHz is 1.112. This mean that you're return
 
 ![VSWR](./img/VSWR.png)
 
-
 The dimensions of the PCB are also very important. If the dimensions are different from here, you must again determine the length and the matching network.
 
-### RF95
+### RF96
 
-The RF95 module is a module suitable for ultra-long range spread spectrum communications. This module has a 20 dBm power amplifier. This means that you have an output power of 100mW. Because the impedance is now correct, all power will also be radiated effectively.
+The RF96 module is a module suitable for ultra-long range spread spectrum communications. This module has a 20 dBm power amplifier. This means that you have an output power of 100mW. Because the impedance is now correct, all power will also be radiated effectively.
 
 Below you see the RF95 module. All pins are brought out through the pins. Except the pin that goes to the antenna.
 This PCB is then clicked on the main PCB.
@@ -63,7 +63,7 @@ This PCB is then clicked on the main PCB.
 
 ### schematic and print in Eagle
 
-Here you can see the schematic drawn in Eagle. At the top you see the pins, these are then connected to the main PCB. below that you see the RF95 chip.
+Here you can see the schematic drawn in Eagle. At the top you see the pins, these are then connected to the main PCB. below that you see the RF96 chip.
 In the middle you see the matching network, which ensures a correct impedance.
 The square block on the right is the symbol for your antenna. It is a symbol whose foodprint is the shape of the antenna.
 
@@ -90,7 +90,7 @@ Then you have to order the components. These are the components:
 
 * [coil (12nF)](https://be.farnell.com/te-connectivity/36502a12njtdg/inductor-12n-5-0805-case/dp/1265504?st=)
 * [capacitors (2.2pF)](https://be.farnell.com/vishay/vj0805a2r2bxapw1bc/cap-2-2pf-50v-c0g-np0-0805/dp/2896503?st=)
-* [RF95 module](https://www.antratek.be/rfm95-lora-module)
+* [RF96 module](https://www.digikey.be/product-detail/en/seeed-technology-co.,-ltd/109990166/1597-1488-ND/7033232?utm_adgroup=RF%20Transceiver%20Modules&utm_source=google&utm_medium=cpc&utm_campaign=Shopping_Product_RF%2FIF%20and%20RFID&utm_term=&productid=7033232&gclid=CjwKCAjwqpP2BRBTEiwAfpiD-0hUd9VhSiN13Y9OhOWbJ38YxABk0f2ujbqdI1xJR1xy0auqC77hRBoC65kQAvD_BwE)
 * [male pins](https://be.farnell.com/harwin/m20-9990846/connector-header-tht-2-54mm-8way/dp/1022257)
 
 for 1 PCB you need 2 capacitors, 1 coil, 1 RF95 module and 15 male pins.
@@ -99,7 +99,7 @@ for 1 PCB you need 2 capacitors, 1 coil, 1 RF95 module and 15 male pins.
 
 If you then have your PCB and components, you can start soldering.
 You should not scratch the antenna anymore, I have already adjusted this in the last version.
-For soldering it is best to start with the RF95 module and then the capacitors and the coil.
+For soldering it is best to start with the RF96 module and then the capacitors and the coil.
 Then solder the pins on the last.
 
 ## Placing the installation
